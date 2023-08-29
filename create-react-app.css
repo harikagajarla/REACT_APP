@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+body {
+    display: block;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-image: url("back3.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container {
+    position: relative;
+    height: 400px;
+    left: 0px;
+
+}
+
+.heder {
+    height: 100px;
+    width: 100%;
+    background-image: url("logo.png");
+    background-size: 300px;
+    background-repeat: no-repeat;
+    border-bottom: 2px solid #fafdfc;
+    padding-top: 50px;
+    font-size: 60px;
+    color: rgb(37, 5, 5);
+    text-shadow: aqua;
+
+}
+
+.btn {
+    position: absolute;
+    top: 45px;
+    right: 20px;
+}
+
+button {
+    color: black;
+    font-weight: bold;
+    height: 40px;
+    width: 150px;
+    background-image: linear-gradient(rgb(248, 7, 7), rgb(238, 104, 14));
+    border-radius: 10px;
+}
+
+#data {
+    width: 99%;
+    height: 450px;
+    text-align: right;
+    justify-content: center;
+    display: flex;
+
+}
+
+.table {
+    width: 800px;
+
+}
+
+table {
+    color: rgb(20, 10, 43);
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    font: 700;
+
+}
+
+table tr :hover {
+    background-color: lightgray;
+
+}
+
+img {
+    clip-path: circle();
+}
+
+.welcome {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: rgb(247, 244, 248);
+    padding-top: 50px;
+}
